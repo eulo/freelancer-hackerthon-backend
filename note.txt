@@ -1,0 +1,5 @@
+
+GET /api/users/0.1/users/directory/
+Fetches a list of freelancers.
+
+
