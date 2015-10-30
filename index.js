@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.use(require('./router.js').router);
+app.use(require('./components/router.js').router);
 
 var server = app.listen(3000, function () {
   var host = server.address().address;

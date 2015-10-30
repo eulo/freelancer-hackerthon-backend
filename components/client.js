@@ -10,7 +10,7 @@ var request = require('request');
 var extend = require('deep-extend');
 
 // Package version
-var VERSION = require('./package.json').version;
+var VERSION = require('../package.json').version;
 
 function Client (options) {
   if (!(this instanceof Client)) return new Client(options);
